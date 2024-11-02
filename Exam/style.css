@@ -1,0 +1,595 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+body {
+    background: #FAF4F2;
+}
+
+.w-1140 {
+    width: 1140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+/*-------section_1-------------*/
+
+.section__developer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 26px 0 32px;
+}
+
+.div__description {
+    display: flex;
+    /*justify-content: flex-start;*/
+    /*align-items: center;*/
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.section__developer h3 {
+    width: 475px;
+    color: #222;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 62px; /* 155% */
+    margin-top: 12px;
+}
+
+.section__developer p {
+    width: 509px;
+    height: 144px;
+    color: #222;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    margin: 7px 0 54px 0;
+}
+
+.div__social-media {
+    width: 240px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div__social-media img {
+    width: 48px;
+    height: 48px;
+}
+
+.buttons {
+    display: flex;
+    gap: 30px;
+    margin: 25px 0 125px 0;
+}
+
+.button__send-request {
+    width: 151px;
+    height: 55px;
+    border-radius: 10px;
+    background: #FF2950;
+    color: #F9F9F9;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.button__download-cv {
+    width: 153px;
+    height: 55px;
+    border-radius: 10px;
+    border: 2px solid #FF9B70;
+    color: rgba(34, 34, 34, 0.50);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.div__foto {
+    display: flex;
+    margin: 100px 0 188px 167px;
+}
+
+.div__foto > img {
+    width: 406px;
+    height: 406px;
+
+}
+
+/*-------section_2-------------*/
+
+.glad_to_help {
+    width: 1140px;
+    height: 519px;
+    border-radius: 35px;
+    background: #FF7315;
+}
+
+.img_glad_to_halp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.glad_to_help {
+    display: flex;
+}
+
+.img_glad_to_help {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 93px 32px 97px 32px;
+
+}
+
+.div__glad_to_help_you {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.div__glad_to_help_you > h2 {
+    color: #F9F9F9;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 62px; /* 86.111% */
+    margin: 62px 0 16px 0;
+}
+
+.div__glad_to_help_you > p:nth-child(2) {
+    color: #F9F9F9;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; /* 150% */
+}
+
+.div__glad_to_help_you > h3 {
+    color: #F9F9F9;
+    /* Heading 1 */
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 62px; /* 129.167% */
+    margin: 19px 0 19px 0;
+}
+
+.div__glad_to_help_you > p:nth-child(4) {
+    width: 570px;
+    color: #F9F9F9;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px; /* 187.5% */
+}
+
+/*-------section_3-------------*/
+
+.section__why_here_me > h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #222;
+    text-align: center;
+    /* Heading 1 */
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 62px; /* 129.167% */
+    margin: 125px 0 100px 0;
+}
+
+.wrapper__items_why {
+    display: flex;
+    gap: 60px;
+    margin-bottom: 125px;
+}
+
+.item_why {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icon_why {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98px;
+    height: 98px;
+    background-color: rgba(34, 34, 34, 0.10);
+    border-radius: 50%;
+}
+
+.item_why > h5 {
+    color: #222;
+    text-align: center;
+    /* Heading 4 */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px; /* 150% */
+    margin: 51px 0 12px 0;
+}
+
+.item_why > p {
+    width: 240px;
+    color: rgba(34, 34, 34, 0.50);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+
+/*-------section_4-------------*/
+
+.portfolio > h3 {
+    color: #222;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 123.6%; /* 59.328px */
+    text-transform: capitalize;
+}
+
+.wrapper__portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin: 64px 81px 125px 81px;
+}
+
+.portfolio__img {
+    width: 310px;
+    height: 300px;
+}
+
+/*-------Або можна зробити через гріди:----------*/
+/*.wrapper__portfolio {*/
+/*    display: grid;*/
+/*    grid-template-columns: repeat(3, 310px);*/
+/*    grid-template-rows: repeat(2, 300px);*/
+/*    gap: 24px;*/
+/*    margin: 64px 81px 125px 81px*/
+/*}*/
+/*-------------Так навіть простіше.-------------------*/
+
+
+/*-------section_5-------------*/
+
+.wrapper__loved_by_users {
+    width: 100vw; /*1440px  можливо має бути так*/
+    height: 643px;
+    background: #FF7315;
+}
+
+.wrapper__loved_by_users > h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 48px auto 111px auto;
+    width: 609px;
+    color: #F9F9F9;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px; /* 125% */
+}
+
+.wrapper__feedbacks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 82px;
+}
+
+.wrapper__feedbacks div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 529px;
+    height: 179px;
+    border-radius: 30px;
+    background: #F9F9F9;
+}
+
+.wrapper__feedbacks div:nth-child(1) p {
+    width: 419px;
+    height: 108px;
+    color: #222;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /*margin: 24px 55px 47px 55px;   На макеті напис стоїть криво, ну не гарно. Роблю по центру.*/
+}
+
+.wrapper__feedbacks div:nth-child(2) p {
+    width: 419px;
+    height: 144px;
+    color: #222;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /*margin: 24px 55px 11px 55px;   На макеті напис стоїть криво, ну не гарно. Роблю по центру.*/
+}
+
+/*-------section_6-------------*/
+
+.price_plans > h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #222;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 123.6%; /* 59.328px */
+    text-transform: capitalize;
+    margin: 125px 0 64px 0;
+}
+
+.wrapper__cards {
+    display: flex;
+    gap: 67.5px;
+    margin-bottom: 100px;
+}
+
+.card {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 335px;
+    height: 500px;
+    border-radius: 15px;
+    background: #F9F9F9;
+    box-shadow: 0 20px 40px 0 rgba(255, 115, 21, 0.10);
+}
+
+.card__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 335px;
+    height: 66px;
+    border-radius: 15px 15px 0 0;
+    background: #FF9B70;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.05);
+    color: #F9F9F9;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 123.6%; /* 29.664px */
+    text-transform: capitalize;
+}
+
+.card__body > h4 {
+    text-align: center;
+    color: #2B2B2B;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 123.6%; /* 39.552px */
+    text-transform: capitalize;
+    margin: 36px auto 29px auto;
+}
+
+.card__body > h4 > span {
+    color: #2B2B2B;
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 160% */
+    text-transform: capitalize;
+    opacity: 0.5;
+    margin-left: 12px;
+}
+
+ul {
+    margin-left: -41px;
+}
+
+li {
+    list-style-type: none;
+    color: #222;
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 171.429% */
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+
+ul li::before {
+    content: "";
+    display: inline-block;
+    width: 24.885px;
+    height: 24px;
+    background-image: url("img/Check_mark.svg");
+    background-size: cover;
+    margin-bottom: -7px;
+    margin-right: 16.11px;
+}
+
+.ul__silver > li:nth-child(n+3) {
+    opacity: 0.5;
+}
+
+.ul__silver > li:nth-child(n+3)::before {
+    content: "";
+    display: inline-block;
+    width: 24.885px;
+    height: 24px;
+    background-image: url("img/Close_mark.svg");
+    background-size: cover;
+    margin-bottom: -7px;
+    margin-right: 16.11px;
+    /*opacity: 0.5;      можна додати, але по макету немає потреби, все сходиться*/
+}
+
+.ul__gold > li:nth-child(n+5) {
+    opacity: 0.5;
+}
+
+.ul__gold > li:nth-child(n+5)::before {
+    content: "";
+    display: inline-block;
+    width: 24.885px;
+    height: 24px;
+    background-image: url("img/Close_mark.svg");
+    background-size: cover;
+    margin-bottom: -7px;
+    margin-right: 16.11px;
+    /*opacity: 0.5;      можна додати, але по макету немає потреби, все сходиться*/
+}
+
+
+/*-------section_7-------------*/
+.email_me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1110px;
+    height: 224px;
+    border-radius: 25px;
+    background: #FF7315;
+    gap: 333px;
+}
+
+.email_me > p {
+    color: #F9F9F9;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 62px; /* 172.222% */
+    width: 343px;
+    height: 124px;
+}
+
+.email_me > button {
+    width: 259px;
+    height: 70px;
+    border-radius: 10px;
+    background: #F9F9F9;
+    box-shadow: 0 0.927px 1.924px 0 rgba(0, 0, 0, 0.01);
+    color: #222;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/*-------section_8-------------*/
+
+.wrapper__blog > h3 {
+    color: #222;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 62px; /* 129.167% */
+    margin: 125px 0 48px 0;
+}
+
+.blog_cards {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 125px;
+}
+
+.blog_card {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 270px;
+    height: 364px;
+    border-radius: 15px;
+    background: #F9F9F9;
+    box-shadow: 0 7px 20px 0 rgba(0, 0, 0, 0.07);
+}
+
+.blog_card > img {
+    width: 250px;
+    height: 195px;
+    border-radius: 15px;
+    background: lightgray 50% / cover no-repeat;
+    margin: 10px;
+}
+
+.blog_card > h6 {
+    color: #222;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 123.6%; /* 19.776px */
+    text-transform: capitalize;
+    margin: 12px auto 12px auto;
+}
+
+.blog_card > p {
+    width: 240px;
+    height: 70px;
+    color: rgba(34, 34, 34, 0.50);
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 200% */
+    text-transform: capitalize;
+}
+
+/*-------footer-------------*/
+
+footer {
+    width: 100vw; /*1440px  можливо має бути так*/
+    height: 170px;
+    background: #F1F1F1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > p {
+    color: #222;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    /*margin: 64px 46px 79px -46px;     На макеті напис стоїть криво, ну не гарно. Роблю по центру.*/
+}
